@@ -1,0 +1,16 @@
+    def detect_pnet(self, im):
+        """Get face candidates through pnet
+
+        Parameters:
+        ----------
+        im: numpy array, input image array
+
+        Returns:
+        -------
+        boxes: numpy array
+            detected boxes before calibration
+	#检测校准前的box
+        boxes_align: numpy array
+            boxes after calibration
+	
+        """
